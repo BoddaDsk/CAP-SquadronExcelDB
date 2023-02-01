@@ -1,14 +1,16 @@
 import openpyxl
 
-
-filename = "Cadet_Full_Track_Report-12_6_2022.xlsx"
+day = input("\nPlease input the day the Excel file was generated [No leading 0s]: ")
+month = input('Please input the number of month this was generated [No leading 0s]: ')
+year = input("Input the last 2 digits of the year the file was generated: ")
+filename = f'Cadet_Full_Track_Report-{month}_{day}_20{year}.xlsx'
 wb = openpyxl.load_workbook(filename)
 ws = wb.active
 start = 0
+print('\n<------------------------------------------------------------------------>')
 print('Welcome to the Jimmy Stewart Composite Squadron Cadet Programs Data Base')
 
-#import Aero
-#import Lead
+
 def leadTest_check(num_cadets):
     LeadTestIndex = []
     row_num = 1
@@ -98,4 +100,4 @@ while start < 1:
         print("The program will now end.")
         start = 1
 
-
+print('\n<------------------------------------------------------------------------>')
