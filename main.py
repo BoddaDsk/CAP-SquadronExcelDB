@@ -8,7 +8,7 @@ wb = openpyxl.load_workbook(filename)
 ws = wb.active
 start = 0
 print('\n<------------------------------------------------------------------------>')
-print('Welcome to the Jimmy Stewart Composite Squadron Cadet Programs Data Base')
+print('Welcome to the Civil Air Patrol Full Track Promotion database!')
 
 #-----------------LEADERSHIP---------------------------------------------------------------------------------------------
 def leadTest_check(num_cadets):
