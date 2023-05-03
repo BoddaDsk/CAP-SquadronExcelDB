@@ -10,7 +10,7 @@ start = 0
 print('\n<------------------------------------------------------------------------>')
 print('Welcome to the Jimmy Stewart Composite Squadron Cadet Programs Data Base')
 
-
+#-----------------LEADERSHIP---------------------------------------------------------------------------------------------
 def leadTest_check(num_cadets):
     LeadTestIndex = []
     row_num = 1
@@ -32,7 +32,7 @@ def leadInt_check(num_cadets):
 def leadPass(num_cadets):
     LeadPass = set(leadTest_check(num_cadets) + leadInt_check(num_cadets))
     return LeadPass
-#------------------------------------------------------------------------------------------------------------------------
+#-----------------AEROSPACE---------------------------------------------------------------------------------------------
 def aspaceTest_check(num_cadets):
     AspaceTestIndex = []
     row_num = 1
@@ -69,8 +69,7 @@ while start < 1:
         break
 
     num_cadets = int(input('How many cadets are there? \n'))
-    #leadPass = Lead.leadPass(num_cadets)
-    #aspacePass = Aero.aspacePass(num_cadets)
+   
 
     if menu_start == 1:
         for x in leadPass(num_cadets):
