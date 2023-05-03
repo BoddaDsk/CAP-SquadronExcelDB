@@ -9,7 +9,7 @@ UNDER SUPERVISION AND GUIDANCE OF: 1LT HASARD
 NER-NJ-103
 ---------------------------------------------------------------------------------------------------------------------------------
 !!!NOTE!!!
-THIS REPORT DOES NOT AUTOMATICALLY UPDATE BASED ON ESERVICES DATA IT; ONLY UPDATES BASED ON THE CURRENT REPORT ENTERED
+THIS REPORT DOES NOT AUTOMATICALLY UPDATE BASED ON ESERVICES DATA; IT ONLY UPDATES BASED ON THE CURRENT REPORT ENTERED
 ---------------------------------------------------------------------------------------------------------------------------------
 INSTRUCTIONS: 
 MAKE SURE OPENPYXL IS DOWNLOADED AND FUNCTIONAL 
